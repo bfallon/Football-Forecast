@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F7471182B70139D002BE97D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7F7471172B70139D002BE97D /* Kingfisher */; };
+		7F97A5CA2B702CDC00B7CB91 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 7F97A5C92B702CDC00B7CB91 /* SwiftDate */; };
+		7F97A5CE2B7033E100B7CB91 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F97A5CD2B7033E100B7CB91 /* DatePickerView.swift */; };
+		7F9AAA9A2B6EC8E500729E2A /* FootballForecastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9AAA992B6EC8E500729E2A /* FootballForecastApp.swift */; };
+		7F9AAA9C2B6EC8E500729E2A /* StadiumScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9AAA9B2B6EC8E500729E2A /* StadiumScreen.swift */; };
+		7F9AAAA02B6EC8E600729E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F9AAA9F2B6EC8E600729E2A /* Assets.xcassets */; };
+		7F9AAAA32B6EC8E600729E2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F9AAAA22B6EC8E600729E2A /* Preview Assets.xcassets */; };
+		7F9AAAAD2B6EC8E600729E2A /* FootballForecastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9AAAAC2B6EC8E600729E2A /* FootballForecastTests.swift */; };
+		7F9AAAB72B6EC8E600729E2A /* FootballForecastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9AAAB62B6EC8E600729E2A /* FootballForecastUITests.swift */; };
+		7F9AAAB92B6EC8E600729E2A /* FootballForecastUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9AAAB82B6EC8E600729E2A /* FootballForecastUITestsLaunchTests.swift */; };
+		7F9AAACB2B6ECA1A00729E2A /* StadiumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9AAACA2B6ECA1A00729E2A /* StadiumManager.swift */; };
+		7F9AAACE2B6ECF0800729E2A /* stadiums.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F9AAACD2B6ECF0800729E2A /* stadiums.json */; };
+		7F9AAAD32B6ED29700729E2A /* ForecastItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9AAAD22B6ED29700729E2A /* ForecastItem.swift */; };
+		7F9AAAD72B6ED2D300729E2A /* Stadium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9AAAD62B6ED2D300729E2A /* Stadium.swift */; };
+		7F9AAADA2B6EDC3800729E2A /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9AAAD92B6EDC3800729E2A /* WeatherService.swift */; };
+		7F9AAADE2B6FE58300729E2A /* ForecastListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9AAADD2B6FE58300729E2A /* ForecastListView.swift */; };
+		7F9AAAE02B6FE77900729E2A /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9AAADF2B6FE77900729E2A /* Weather.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F9AAAA92B6EC8E600729E2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9AAA8E2B6EC8E500729E2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F9AAA952B6EC8E500729E2A;
+			remoteInfo = FootballForecast;
+		};
+		7F9AAAB32B6EC8E600729E2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9AAA8E2B6EC8E500729E2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F9AAA952B6EC8E500729E2A;
+			remoteInfo = FootballForecast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F97A5CD2B7033E100B7CB91 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		7F9AAA962B6EC8E500729E2A /* FootballForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9AAA992B6EC8E500729E2A /* FootballForecastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballForecastApp.swift; sourceTree = "<group>"; };
+		7F9AAA9B2B6EC8E500729E2A /* StadiumScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadiumScreen.swift; sourceTree = "<group>"; };
+		7F9AAA9F2B6EC8E600729E2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F9AAAA22B6EC8E600729E2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F9AAAA82B6EC8E600729E2A /* FootballForecastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootballForecastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9AAAAC2B6EC8E600729E2A /* FootballForecastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballForecastTests.swift; sourceTree = "<group>"; };
+		7F9AAAB22B6EC8E600729E2A /* FootballForecastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootballForecastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9AAAB62B6EC8E600729E2A /* FootballForecastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballForecastUITests.swift; sourceTree = "<group>"; };
+		7F9AAAB82B6EC8E600729E2A /* FootballForecastUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballForecastUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F9AAACA2B6ECA1A00729E2A /* StadiumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadiumManager.swift; sourceTree = "<group>"; };
+		7F9AAACD2B6ECF0800729E2A /* stadiums.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stadiums.json; sourceTree = "<group>"; };
+		7F9AAAD22B6ED29700729E2A /* ForecastItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastItem.swift; sourceTree = "<group>"; };
+		7F9AAAD62B6ED2D300729E2A /* Stadium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stadium.swift; sourceTree = "<group>"; };
+		7F9AAAD92B6EDC3800729E2A /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		7F9AAADD2B6FE58300729E2A /* ForecastListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListView.swift; sourceTree = "<group>"; };
+		7F9AAADF2B6FE77900729E2A /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F9AAA932B6EC8E500729E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F97A5CA2B702CDC00B7CB91 /* SwiftDate in Frameworks */,
+				7F7471182B70139D002BE97D /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9AAAA52B6EC8E600729E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9AAAAF2B6EC8E600729E2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F9AAA8D2B6EC8E500729E2A = {
+			isa = PBXGroup;
+			children = (
+				7F9AAA982B6EC8E500729E2A /* FootballForecast */,
+				7F9AAAAB2B6EC8E600729E2A /* FootballForecastTests */,
+				7F9AAAB52B6EC8E600729E2A /* FootballForecastUITests */,
+				7F9AAA972B6EC8E500729E2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F9AAA972B6EC8E500729E2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F9AAA962B6EC8E500729E2A /* FootballForecast.app */,
+				7F9AAAA82B6EC8E600729E2A /* FootballForecastTests.xctest */,
+				7F9AAAB22B6EC8E600729E2A /* FootballForecastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F9AAA982B6EC8E500729E2A /* FootballForecast */ = {
+			isa = PBXGroup;
+			children = (
+				7F9AAA992B6EC8E500729E2A /* FootballForecastApp.swift */,
+				7F9AAAC82B6EC99000729E2A /* UI */,
+				7F9AAACC2B6ECA2700729E2A /* Managers */,
+				7F9AAAC92B6EC99C00729E2A /* Models */,
+				7F9AAACF2B6ECF1200729E2A /* Data */,
+				7F9AAAD82B6EDC1800729E2A /* Services */,
+				7F9AAA9F2B6EC8E600729E2A /* Assets.xcassets */,
+				7F9AAAA12B6EC8E600729E2A /* Preview Content */,
+			);
+			path = FootballForecast;
+			sourceTree = "<group>";
+		};
+		7F9AAAA12B6EC8E600729E2A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F9AAAA22B6EC8E600729E2A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F9AAAAB2B6EC8E600729E2A /* FootballForecastTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F9AAAAC2B6EC8E600729E2A /* FootballForecastTests.swift */,
+			);
+			path = FootballForecastTests;
+			sourceTree = "<group>";
+		};
+		7F9AAAB52B6EC8E600729E2A /* FootballForecastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F9AAAB62B6EC8E600729E2A /* FootballForecastUITests.swift */,
+				7F9AAAB82B6EC8E600729E2A /* FootballForecastUITestsLaunchTests.swift */,
+			);
+			path = FootballForecastUITests;
+			sourceTree = "<group>";
+		};
+		7F9AAAC82B6EC99000729E2A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7F9AAADB2B6FE56300729E2A /* Screens */,
+				7F9AAADC2B6FE56A00729E2A /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7F9AAAC92B6EC99C00729E2A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F9AAAD52B6ED2C400729E2A /* JSON */,
+				7F9AAAD42B6ED2BB00729E2A /* SwiftData */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7F9AAACC2B6ECA2700729E2A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7F9AAACA2B6ECA1A00729E2A /* StadiumManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		7F9AAACF2B6ECF1200729E2A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7F9AAACD2B6ECF0800729E2A /* stadiums.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7F9AAAD42B6ED2BB00729E2A /* SwiftData */ = {
+			isa = PBXGroup;
+			children = (
+				7F9AAAD22B6ED29700729E2A /* ForecastItem.swift */,
+			);
+			path = SwiftData;
+			sourceTree = "<group>";
+		};
+		7F9AAAD52B6ED2C400729E2A /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				7F9AAAD62B6ED2D300729E2A /* Stadium.swift */,
+				7F9AAADF2B6FE77900729E2A /* Weather.swift */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		7F9AAAD82B6EDC1800729E2A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7F9AAAD92B6EDC3800729E2A /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7F9AAADB2B6FE56300729E2A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7F9AAA9B2B6EC8E500729E2A /* StadiumScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		7F9AAADC2B6FE56A00729E2A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F9AAADD2B6FE58300729E2A /* ForecastListView.swift */,
+				7F97A5CD2B7033E100B7CB91 /* DatePickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F9AAA952B6EC8E500729E2A /* FootballForecast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9AAABC2B6EC8E600729E2A /* Build configuration list for PBXNativeTarget "FootballForecast" */;
+			buildPhases = (
+				7F9AAA922B6EC8E500729E2A /* Sources */,
+				7F9AAA932B6EC8E500729E2A /* Frameworks */,
+				7F9AAA942B6EC8E500729E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FootballForecast;
+			packageProductDependencies = (
+				7F7471172B70139D002BE97D /* Kingfisher */,
+				7F97A5C92B702CDC00B7CB91 /* SwiftDate */,
+			);
+			productName = FootballForecast;
+			productReference = 7F9AAA962B6EC8E500729E2A /* FootballForecast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F9AAAA72B6EC8E600729E2A /* FootballForecastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9AAABF2B6EC8E600729E2A /* Build configuration list for PBXNativeTarget "FootballForecastTests" */;
+			buildPhases = (
+				7F9AAAA42B6EC8E600729E2A /* Sources */,
+				7F9AAAA52B6EC8E600729E2A /* Frameworks */,
+				7F9AAAA62B6EC8E600729E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F9AAAAA2B6EC8E600729E2A /* PBXTargetDependency */,
+			);
+			name = FootballForecastTests;
+			productName = FootballForecastTests;
+			productReference = 7F9AAAA82B6EC8E600729E2A /* FootballForecastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F9AAAB12B6EC8E600729E2A /* FootballForecastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9AAAC22B6EC8E600729E2A /* Build configuration list for PBXNativeTarget "FootballForecastUITests" */;
+			buildPhases = (
+				7F9AAAAE2B6EC8E600729E2A /* Sources */,
+				7F9AAAAF2B6EC8E600729E2A /* Frameworks */,
+				7F9AAAB02B6EC8E600729E2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F9AAAB42B6EC8E600729E2A /* PBXTargetDependency */,
+			);
+			name = FootballForecastUITests;
+			productName = FootballForecastUITests;
+			productReference = 7F9AAAB22B6EC8E600729E2A /* FootballForecastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F9AAA8E2B6EC8E500729E2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7F9AAA952B6EC8E500729E2A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7F9AAAA72B6EC8E600729E2A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7F9AAA952B6EC8E500729E2A;
+					};
+					7F9AAAB12B6EC8E600729E2A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7F9AAA952B6EC8E500729E2A;
+					};
+				};
+			};
+			buildConfigurationList = 7F9AAA912B6EC8E500729E2A /* Build configuration list for PBXProject "FootballForecast" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F9AAA8D2B6EC8E500729E2A;
+			packageReferences = (
+				7F7471162B70139D002BE97D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				7F97A5C82B702CDC00B7CB91 /* XCRemoteSwiftPackageReference "SwiftDate" */,
+			);
+			productRefGroup = 7F9AAA972B6EC8E500729E2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F9AAA952B6EC8E500729E2A /* FootballForecast */,
+				7F9AAAA72B6EC8E600729E2A /* FootballForecastTests */,
+				7F9AAAB12B6EC8E600729E2A /* FootballForecastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F9AAA942B6EC8E500729E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9AAAA32B6EC8E600729E2A /* Preview Assets.xcassets in Resources */,
+				7F9AAAA02B6EC8E600729E2A /* Assets.xcassets in Resources */,
+				7F9AAACE2B6ECF0800729E2A /* stadiums.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9AAAA62B6EC8E600729E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9AAAB02B6EC8E600729E2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F9AAA922B6EC8E500729E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9AAAD32B6ED29700729E2A /* ForecastItem.swift in Sources */,
+				7F9AAAD72B6ED2D300729E2A /* Stadium.swift in Sources */,
+				7F9AAA9C2B6EC8E500729E2A /* StadiumScreen.swift in Sources */,
+				7F97A5CE2B7033E100B7CB91 /* DatePickerView.swift in Sources */,
+				7F9AAACB2B6ECA1A00729E2A /* StadiumManager.swift in Sources */,
+				7F9AAAE02B6FE77900729E2A /* Weather.swift in Sources */,
+				7F9AAA9A2B6EC8E500729E2A /* FootballForecastApp.swift in Sources */,
+				7F9AAADA2B6EDC3800729E2A /* WeatherService.swift in Sources */,
+				7F9AAADE2B6FE58300729E2A /* ForecastListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9AAAA42B6EC8E600729E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9AAAAD2B6EC8E600729E2A /* FootballForecastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9AAAAE2B6EC8E600729E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9AAAB92B6EC8E600729E2A /* FootballForecastUITestsLaunchTests.swift in Sources */,
+				7F9AAAB72B6EC8E600729E2A /* FootballForecastUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F9AAAAA2B6EC8E600729E2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F9AAA952B6EC8E500729E2A /* FootballForecast */;
+			targetProxy = 7F9AAAA92B6EC8E600729E2A /* PBXContainerItemProxy */;
+		};
+		7F9AAAB42B6EC8E600729E2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F9AAA952B6EC8E500729E2A /* FootballForecast */;
+			targetProxy = 7F9AAAB32B6EC8E600729E2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7F9AAABA2B6EC8E600729E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F9AAABB2B6EC8E600729E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F9AAABD2B6EC8E600729E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FootballForecast/Preview Content\"";
+				DEVELOPMENT_TEAM = RCAC8M3PD8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianfallon.FootballForecast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F9AAABE2B6EC8E600729E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FootballForecast/Preview Content\"";
+				DEVELOPMENT_TEAM = RCAC8M3PD8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianfallon.FootballForecast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F9AAAC02B6EC8E600729E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RCAC8M3PD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianfallon.FootballForecastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FootballForecast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FootballForecast";
+			};
+			name = Debug;
+		};
+		7F9AAAC12B6EC8E600729E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RCAC8M3PD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianfallon.FootballForecastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FootballForecast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FootballForecast";
+			};
+			name = Release;
+		};
+		7F9AAAC32B6EC8E600729E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RCAC8M3PD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianfallon.FootballForecastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FootballForecast;
+			};
+			name = Debug;
+		};
+		7F9AAAC42B6EC8E600729E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RCAC8M3PD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianfallon.FootballForecastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FootballForecast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F9AAA912B6EC8E500729E2A /* Build configuration list for PBXProject "FootballForecast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9AAABA2B6EC8E600729E2A /* Debug */,
+				7F9AAABB2B6EC8E600729E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9AAABC2B6EC8E600729E2A /* Build configuration list for PBXNativeTarget "FootballForecast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9AAABD2B6EC8E600729E2A /* Debug */,
+				7F9AAABE2B6EC8E600729E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9AAABF2B6EC8E600729E2A /* Build configuration list for PBXNativeTarget "FootballForecastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9AAAC02B6EC8E600729E2A /* Debug */,
+				7F9AAAC12B6EC8E600729E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9AAAC22B6EC8E600729E2A /* Build configuration list for PBXNativeTarget "FootballForecastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9AAAC32B6EC8E600729E2A /* Debug */,
+				7F9AAAC42B6EC8E600729E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F7471162B70139D002BE97D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.2;
+			};
+		};
+		7F97A5C82B702CDC00B7CB91 /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F7471172B70139D002BE97D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F7471162B70139D002BE97D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		7F97A5C92B702CDC00B7CB91 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F97A5C82B702CDC00B7CB91 /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7F9AAA8E2B6EC8E500729E2A /* Project object */;
+}

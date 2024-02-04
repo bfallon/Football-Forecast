@@ -1,0 +1,194 @@
+[
+  {
+    "team": "Pittsburgh Steelers",
+    "name": "Acrisure Stadium",
+    "location": "Pittsburgh, Pennsylvania",
+    "roof": "Open"
+  },
+  {
+    "team": "Las Vegas Raiders",
+    "name": "Allegiant Stadium",
+    "location": "Paradise, Nevada",
+    "roof": "Fixed"
+  },
+  {
+    "team": "Kansas City Chiefs",
+    "name": "Arrowhead Stadium",
+    "location": "Kansas City, Missouri",
+    "roof": "Open"
+  },
+  {
+    "team": "Dallas Cowboys",
+    "name": "AT&T Stadium",
+    "location": "Arlington, Texas",
+    "roof": "Retractable"
+  },
+  {
+    "team": "Carolina Panthers",
+    "name": "Bank of America Stadium",
+    "location": "Charlotte, North Carolina",
+    "roof": "Open"
+  },
+  {
+    "team": "New Orleans Saints",
+    "name": "Caesars Superdome",
+    "location": "New Orleans, Louisiana",
+    "roof": "Fixed"
+  },
+  {
+    "team": "Cleveland Browns",
+    "name": "Cleveland Browns Stadium",
+    "location": "Cleveland, Ohio",
+    "roof": "Open"
+  },
+  {
+    "team": "Denver Broncos",
+    "name": "Empower Field at Mile High",
+    "location": "Denver, Colorado",
+    "roof": "Open"
+  },
+  {
+    "team": "Jacksonville Jaguars",
+    "name": "EverBank Stadium",
+    "location": "Jacksonville, Florida",
+    "roof": "Open"
+  },
+  {
+    "team": "Washington Commanders",
+    "name": "FedExField",
+    "location": "Landover, Maryland",
+    "roof": "Open"
+  },
+  {
+    "team": "Detroit Lions",
+    "name": "Ford Field",
+    "location": "Detroit, Michigan",
+    "roof": "Fixed"
+  },
+  {
+    "team": "New England Patriots",
+    "name": "Gillette Stadium",
+    "location": "Foxborough, Massachusetts",
+    "roof": "Open"
+  },
+  {
+    "team": "Miami Dolphins",
+    "name": "Hard Rock Stadium",
+    "location": "Miami Gardens, Florida",
+    "roof": "Open"
+  },
+  {
+    "team": "Buffalo Bills",
+    "name": "Highmark Stadium",
+    "location": "Orchard Park, New York",
+    "roof": "Open"
+  },
+  {
+    "team": "Green Bay Packers",
+    "name": "Lambeau Field",
+    "location": "Green Bay, Wisconsin",
+    "roof": "Open"
+  },
+  {
+    "team": "San Francisco 49ers",
+    "name": "Levi's Stadium",
+    "location": "Santa Clara, California",
+    "roof": "Open"
+  },
+  {
+    "team": "Philadelphia Eagles",
+    "name": "Lincoln Financial Field",
+    "location": "Philadelphia, Pennsylvania",
+    "roof": "Open"
+  },
+  {
+    "team": "Indianapolis Colts",
+    "name": "Lucas Oil Stadium",
+    "location": "Indianapolis, Indiana",
+    "roof": "Retractable"
+  },
+  {
+    "team": "Seattle Seahawks",
+    "name": "Lumen Field",
+    "location": "Seattle, Washington",
+    "roof": "Open"
+  },
+  {
+    "team": "Baltimore Ravens",
+    "name": "M&T Bank Stadium",
+    "location": "Baltimore, Maryland",
+    "roof": "Open"
+  },
+  {
+    "team": "Atlanta Falcons",
+    "name": "Mercedes-Benz Stadium",
+    "location": "Atlanta, Georgia",
+    "roof": "Retractable"
+  },
+  {
+    "team": "New York Giants",
+    "name": "MetLife Stadium",
+    "location": "East Rutherford, New Jersey",
+    "roof": "Open"
+  },
+  {
+    "team": "New York Jets",
+    "name": "MetLife Stadium",
+    "location": "East Rutherford, New Jersey",
+    "roof": "Open"
+  },
+  {
+    "team": "Tennessee Titans",
+    "name": "Nissan Stadium",
+    "location": "Nashville, Tennessee",
+    "roof": "Open"
+  },
+  {
+    "team": "Houston Texans",
+    "name": "NRG Stadium",
+    "location": "Houston, Texas",
+    "roof": "Retractable"
+  },
+  {
+    "team": "Cincinnati Bengals",
+    "name": "Paycor Stadium",
+    "location": "Cincinnati, Ohio",
+    "roof": "Open"
+  },
+  {
+    "team": "Tampa Bay Buccaneers",
+    "name": "Raymond James Stadium",
+    "location": "Tampa, Florida",
+    "roof": "Open"
+  },
+  {
+    "team": "Los Angeles Rams",
+    "name": "SoFi Stadium",
+    "location": "Inglewood, California",
+    "roof": "Fixed"
+  },
+  {
+    "team": "Los Angeles Chargers",
+    "name": "SoFi Stadium",
+    "location": "Inglewood, California",
+    "roof": "Fixed"
+  },
+  {
+    "team": "Chicago Bears",
+    "name": "Soldier Field",
+    "location": "Chicago, Illinois",
+    "roof": "Open"
+  },
+  {
+    "team": "Arizona Cardinals",
+    "name": "State Farm Stadium",
+    "location": "Glendale, Arizona",
+    "roof": "Retractable"
+  },
+  {
+    "team": "Minnesota Vikings",
+    "name": "U.S. Bank Stadium",
+    "location": "Minneapolis, Minnesota",
+    "roof": "Fixed"
+  }
+]
