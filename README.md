@@ -1,5 +1,5 @@
 # Football-Forecast
-![Sample Image]([https://github.com/username/repository/raw/main/image.png](https://github.com/bfallon/Football-Forecast/blob/main/FootballForecast/FootballForecast/Assets.xcassets/AppIcon.appiconset/FootballForecastIcon.png))
+![Sample Image]([[https://github.com/username/repository/raw/main/image.png](https://github.com/bfallon/Football-Forecast/blob/main/FootballForecast/FootballForecast/Assets.xcassets/AppIcon.appiconset/FootballForecastIcon.png)](https://raw.githubusercontent.com/bfallon/Football-Forecast/main/FootballForecast/FootballForecast/Assets.xcassets/AppIcon.appiconset/FootballForecastIcon.png))
 
 
 
