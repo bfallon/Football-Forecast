@@ -1,5 +1,5 @@
 # Football-Forecast
-![Sample Image](https://github.com/username/repository/raw/main/image.png)
+![Sample Image]([https://github.com/username/repository/raw/main/image.png](https://github.com/bfallon/Football-Forecast/blob/main/FootballForecast/FootballForecast/Assets.xcassets/AppIcon.appiconset/FootballForecastIcon.png))
 
 
 
