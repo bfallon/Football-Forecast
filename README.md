@@ -1,7 +1,6 @@
 # Football-Forecast
-![Sample Image]([[https://github.com/username/repository/raw/main/image.png](https://github.com/bfallon/Football-Forecast/blob/main/FootballForecast/FootballForecast/Assets.xcassets/AppIcon.appiconset/FootballForecastIcon.png)](https://raw.githubusercontent.com/bfallon/Football-Forecast/main/FootballForecast/FootballForecast/Assets.xcassets/AppIcon.appiconset/FootballForecastIcon.png))
 
-
+![App Icon](https://raw.githubusercontent.com/bfallon/Football-Forecast/main/FootballForecast/FootballForecast/Assets.xcassets/AppIcon.appiconset/FootballForecastIcon.png)
 
 Have you ever wondered what the weather will be at a NFL stadium when creating a Fantasy Football lineup, or making a bet? 
 
