@@ -11,6 +11,7 @@ This demo app:
 - Was developed using SwiftUI
 - Uses SwiftData
 - Loads and parses local JSON
+- Loads packages via SPM
 - Connects and parses data from API (WeatherAPI)
 - Contains unit tests
 
