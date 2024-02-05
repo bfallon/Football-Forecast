@@ -12,6 +12,6 @@ This demo app:
 - Uses SwiftData
 - Loads and parses local JSON
 - Loads packages via SPM
-- Connects and parses data from API (WeatherAPI)
+- Connects and parses data from WeatherAPI
 - Contains unit tests
 
