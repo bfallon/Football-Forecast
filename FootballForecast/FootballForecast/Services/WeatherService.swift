@@ -36,8 +36,10 @@ class WeatherService: ObservableObject {
 
         do {
             let (data, _) = try await URLSession.shared.data(for: request)
-            let str = String(decoding: data, as: UTF8.self)
-                        print("RAW JSON STR \(str)")
+            //uncomment to see payload from API
+//            let str = String(decoding: data, as: UTF8.self)
+//            print("RAW JSON STR \(str)")
+            
             let jsonDecoder = JSONDecoder()
             jsonDecoder.keyDecodingStrategy = .convertFromSnakeCase
 

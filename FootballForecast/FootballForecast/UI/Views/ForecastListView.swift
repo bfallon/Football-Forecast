@@ -52,7 +52,14 @@ struct ForecastListView: View {
                 }
 
                 if let weather = forecastItem.weather, let wind = weather.wind(), let temperature = weather.temperature() {
-                    HStack {
+                    
+                    HStack(spacing:2){
+
+                        Image(systemName: "thermometer.medium")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 16, height: 16)
+
                         Text("\(Int(temperature))°")
                             .font(.caption)
                             .foregroundStyle(Color("forecastBlack"))
@@ -60,20 +67,22 @@ struct ForecastListView: View {
                         Text("|")
                             .font(.caption)
                             .foregroundStyle(.gray)
+                            .padding([.leading,.trailing], 6)
 
-                        Text("Wind: \(Int(wind)) mph")
+                        Image(systemName: "wind")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 16, height: 16)
+
+                        Text("\(Int(wind)) mph")
                             .font(.caption)
                             .foregroundStyle(Color("forecastBlack"))
-
-                        Text("|")
-                            .font(.caption)
-                            .foregroundStyle(.gray)
-
-                        Text("Roof: \(forecastItem.stadium.roof)")
-                            .font(.caption)
-                            .foregroundStyle(Color("forecastBlack"))
-
                     }
+
+                    Text("\(forecastItem.stadium.roof.uppercased()) ROOF")
+                        .font(.system(size: 10, weight: .regular, design: .default))
+                        .foregroundStyle(Color("forecastBlack"))
+                        .padding(.top, 4)
                 }
 
             }
