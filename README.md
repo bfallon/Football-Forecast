@@ -12,7 +12,7 @@ This app delivers the weather for every stadium and lets you know whether or not
 - Uses SwiftData
 - Loads and parses local JSON
 - Loads packages via SPM
-- Connects and parses data from WeatherAPI
+- Connects and decodes data from WeatherAPI (Async/Await)
 - Contains unit tests
 
 
