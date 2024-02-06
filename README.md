@@ -7,7 +7,7 @@ Have you ever wondered what the weather will be at the NFL stadiums when creatin
 This app delivers the weather for every stadium and lets you know whether or not it has a closed/retractable roof. 
 
 
-###This demo app:
+### This demo app:
 - Was developed using SwiftUI
 - Uses SwiftData
 - Loads and parses local JSON
@@ -16,7 +16,7 @@ This app delivers the weather for every stadium and lets you know whether or not
 - Contains unit tests
 
 
-####Notes:
+#### Notes:
 This app took 9 hours to complete:
 - 0.5 hours to find content and art
 - 7.5 hours of development
