@@ -148,7 +148,7 @@ struct ForecastListView: View {
     var roof:String {
         var roof = ""
         if forecastItem.stadium.roof.uppercased() == "OPEN"{
-            roof = forecastItem.stadium.roof.uppercased()
+            roof = "\(forecastItem.stadium.roof.uppercased()) STADIUM"
         } else {
             roof = "\(forecastItem.stadium.roof.uppercased()) ROOF"
         }
