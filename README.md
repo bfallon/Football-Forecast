@@ -15,3 +15,8 @@ This demo app:
 - Connects and parses data from WeatherAPI
 - Contains unit tests
 
+Notes:
+This app took 9 hours to complete:
+- 0.5 hours to find content and art
+- 7.5 hours of development
+- 1 hour designing icon
