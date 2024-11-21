@@ -57,7 +57,7 @@ final class FootballForecastTests: XCTestCase {
         XCTAssertNotNil(weatherResult?.wind(), "Weather wind is nil")
 
         //Weather must have the date
-        XCTAssertNotNil(weatherResult?.date(), "Weather wind is nil")
+        XCTAssertNotNil(weatherResult?.date(), "Weather date is nil")
 
     }
 }
